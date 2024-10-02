@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lâmpada</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>JavaScript - Lâmpada!</h1>
+    </header>
+
+    <main>
+        <div class="conteiner">
+            <img src="desligada.png" alt="Lâmpada" id="lampada">
+        </div>
+        <div>
+           <button id="on" onclick="ON()">LIGAR</button>
+        </div>
+        <div>
+           <button id="off" onclick="OFF()">DESLIGAR</button>
+        </div>
+        <div>
+           <button id="pisca" onclick="PISCAR()">PISCAR</button>
+        </div>
+        <button id="quebra" onclick="QUEBRA()">QUEBRAR</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

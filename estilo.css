@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(68, 0, 253);
+    text-align: center;
+}
+button{
+    background-color: yellow;
+    margin: 25px 0;
+    border: 2px solid #2c4766;
+    outline: none;
+    border-radius: 40px;
+}
+button:hover{
+    background-color: red;
+}
